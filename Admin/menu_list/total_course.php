@@ -12,23 +12,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="../assets/images/favicon.ico" />
+    <link rel="shortcut icon" href="../../assets/images/favicon.ico" />
 
     <!-- plugins -->
     <link
-      href="../assets/libs/flatpickr/flatpickr.min.css"
+      href="../../assets/libs/flatpickr/flatpickr.min.css"
       rel="stylesheet"
       type="text/css"
     />
 
     <!-- App css -->
     <link
-      href="../assets/css/bootstrap.min.css"
+      href="../../assets/css/bootstrap.min.css"
       rel="stylesheet"
       type="text/css"
     />
-    <link href="../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="../assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="../../assets/css/icons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="../../assets/css/app.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
   </head>
 
   <body>
@@ -38,13 +46,13 @@
       <div class="navbar navbar-expand flex-column flex-md-row navbar-custom">
         <div class="container-fluid">
           <!-- LOGO -->
-          <a href="index.html" class="navbar-brand mr-0 mr-md-2 logo">
+          <a href="../index.html" class="navbar-brand mr-0 mr-md-2 logo">
             <span class="logo-lg">
-              <img src="../assets/images/logo.png" alt="" height="24" />
+              <img src="../../assets/images/logo.png" alt="" height="24" />
               <span class="d-inline h5 ml-1 text-logo">Ghasful Learner</span>
             </span>
             <span class="logo-sm">
-              <img src="../assets/images/logo.png" alt="" height="24" />
+              <img src="../../assets/images/logo.png" alt="" height="24" />
             </span>
           </a>
 
@@ -99,7 +107,7 @@
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                   <img
-                    src="../assets/images/flags/bd.png"
+                    src="../../assets/images/flags/bd.png"
                     alt="user-image"
                     class="mr-2"
                     height="12"
@@ -110,7 +118,7 @@
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                   <img
-                    src="../assets/images/flags/us.jpg"
+                    src="../../assets/images/flags/us.jpg"
                     alt="user-image"
                     class="mr-2"
                     height="12"
@@ -173,7 +181,7 @@
                   >
                     <div class="notify-icon">
                       <img
-                        src="../assets/images/users/avatar-1.jpg"
+                        src="../../assets/images/users/avatar-1.jpg"
                         class="img-fluid rounded-circle"
                         alt=""
                       />
@@ -193,7 +201,7 @@
                   >
                     <div class="notify-icon">
                       <img
-                        src="../assets/images/users/avatar-2.jpg"
+                        src="../../assets/images/users/avatar-2.jpg"
                         class="img-fluid rounded-circle"
                         alt=""
                       />
@@ -284,7 +292,7 @@
       <div class="left-side-menu">
         <div class="media user-profile mt-2 mb-2">
           <img
-            src="../assets/images/user.jpg"
+            src="../../assets/images/user.jpg"
             class="avatar-sm rounded-circle mr-2"
             alt="Shreyu"
           />
@@ -305,7 +313,10 @@
               <span data-feather="chevron-down"></span>
             </a>
             <div class="dropdown-menu profile-dropdown">
-              <a href="../pages-profile.html" class="dropdown-item notify-item">
+              <a
+                href="../../pages-profile.html"
+                class="dropdown-item notify-item"
+              >
                 <i data-feather="settings" class="icon-dual icon-xs mr-2"></i>
                 <span>Manage Account</span>
               </a>
@@ -324,16 +335,16 @@
           <div id="sidebar-menu" class="slimscroll-menu">
             <ul class="metismenu" id="menu-bar">
               <!-- Deshbord -->
-              <li class="active">
-                <a href="index.html">
+              <li>
+                <a href="../index.html">
                   <i data-feather="home"></i>
 
                   <span> Dashboard </span>
                 </a>
               </li>
               <!-- Total Course -->
-              <li>
-                <a href="./menu_list/total_course.php">
+              <li class="active">
+                <a href="total_course.html">
                   <i data-feather="book"></i>
                   <span>Total Course </span>
                 </a>
@@ -741,7 +752,7 @@
                     <h5 class="mb-4 header-title">Top Performers</h5>
                     <div class="media border-top pt-3">
                       <img
-                        src="../assets/images/users/avatar-7.jpg"
+                        src="../../assets/images/users/avatar-7.jpg"
                         class="avatar rounded mr-3"
                         alt="shreyu"
                       />
@@ -782,7 +793,7 @@
                     </div>
                     <div class="media mt-1 border-top pt-3">
                       <img
-                        src="../assets/images/users/avatar-9.jpg"
+                        src="../../assets/images/users/avatar-9.jpg"
                         class="avatar rounded mr-3"
                         alt="shreyu"
                       />
@@ -823,7 +834,7 @@
                     </div>
                     <div class="media mt-1 border-top pt-3">
                       <img
-                        src="../assets/images/users/avatar-4.jpg"
+                        src="../../assets/images/users/avatar-4.jpg"
                         class="avatar rounded mr-3"
                         alt="shreyu"
                       />
@@ -864,7 +875,7 @@
                     </div>
                     <div class="media mt-1 border-top pt-3">
                       <img
-                        src="../assets/images/users/avatar-1.jpg"
+                        src="../../assets/images/users/avatar-1.jpg"
                         class="avatar rounded mr-3"
                         alt="shreyu"
                       />
@@ -906,7 +917,7 @@
 
                     <div class="media mt-1 border-top pt-3">
                       <img
-                        src="../assets/images/users/avatar-5.jpg"
+                        src="../../assets/images/users/avatar-5.jpg"
                         class="avatar rounded mr-3"
                         alt="shreyu"
                       />
@@ -1134,7 +1145,7 @@
                         <li class="clearfix">
                           <div class="chat-avatar">
                             <img
-                              src="../assets/images/users/avatar-9.jpg"
+                              src="../../assets/images/users/avatar-9.jpg"
                               alt="Female"
                             />
                             <i>10:00</i>
@@ -1149,7 +1160,7 @@
                         <li class="clearfix odd">
                           <div class="chat-avatar">
                             <img
-                              src="../assets/images/users/avatar-7.jpg"
+                              src="../../assets/images/users/avatar-7.jpg"
                               alt="Male"
                             />
                             <i>10:01</i>
@@ -1166,7 +1177,7 @@
                         <li class="clearfix">
                           <div class="chat-avatar">
                             <img
-                              src="../assets/images/users/avatar-9.jpg"
+                              src="../../assets/images/users/avatar-9.jpg"
                               alt="female"
                             />
                             <i>10:01</i>
@@ -1181,7 +1192,7 @@
                         <li class="clearfix odd">
                           <div class="chat-avatar">
                             <img
-                              src="../assets/images/users/avatar-7.jpg"
+                              src="../../assets/images/users/avatar-7.jpg"
                               alt="male"
                             />
                             <i>10:02</i>
@@ -1260,17 +1271,17 @@
     <div class="rightbar-overlay"></div>
 
     <!-- Vendor js -->
-    <script src="../assets/js/vendor.min.js"></script>
+    <script src="../../assets/js/vendor.min.js"></script>
 
     <!-- optional plugins -->
-    <script src="../assets/libs/moment/moment.min.js"></script>
-    <script src="../assets/libs/apexcharts/apexcharts.min.js"></script>
-    <script src="../assets/libs/flatpickr/flatpickr.min.js"></script>
+    <script src="../../assets/libs/moment/moment.min.js"></script>
+    <script src="../../assets/libs/apexcharts/apexcharts.min.js"></script>
+    <script src="../../assets/libs/flatpickr/flatpickr.min.js"></script>
 
     <!-- page js -->
-    <script src="../assets/js/pages/dashboard.init.js"></script>
+    <script src="../../assets/js/pages/dashboard.init.js"></script>
 
     <!-- App js -->
-    <script src="../assets/js/app.min.js"></script>
+    <script src="../../assets/js/app.min.js"></script>
   </body>
 </html>
