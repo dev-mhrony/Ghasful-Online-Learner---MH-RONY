@@ -399,129 +399,14 @@
           <div class="container-fluid">
             <div class="row page-title align-items-center">
               <div class="col-sm-4 col-xl-6">
-                <h4 class="mb-1 mt-0">Assignment</h4>
+                <h4 class="mb-1 mt-0">Setting</h4>
               </div>
-              <div class="col-sm-8 col-xl-6">
-                <form class="form-inline float-sm-right mt-3 mt-sm-0">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-primary dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="uil uil-file-alt mr-1"></i>Add Assignment
-                      
-                    </button>
 
-                  </div>
-
-                  <div class="btn-group" style="margin-left: 10px;">
-                    <button
-                      type="button"
-                      class="btn btn-primary dropdown-toggle"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      <i class="uil uil-check-square mr-1"></i> Manage Assignment
-                    </button>
-
-                  </div>
-                </form>
-              </div>
             </div>
 
             <!-- content -->
             <div class="row">
-              <div class="col-md-6 col-xl-3">
-                <div class="card">
-                  <div class="card-body p-0">
-                    <div class="media p-3">
-                      <div class="media-body">
-                        <span
-                          class="text-muted text-uppercase font-size-12 font-weight-bold"
-                          >Today Teacher</span
-                        >
-                        <h2 class="mb-0">2100</h2>
-                      </div>
-                      <div class="align-self-center">
-                        <span
-                          class="icon-lg icon-dual-primary"
-                          data-feather="shopping-bag"
-                        ></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-              <div class="col-md-6 col-xl-3">
-                <div class="card">
-                  <div class="card-body p-0">
-                    <div class="media p-3">
-                      <div class="media-body">
-                        <span
-                          class="text-muted text-uppercase font-size-12 font-weight-bold"
-                          >Total Student</span
-                        >
-                        <h2 class="mb-0">1065</h2>
-                      </div>
-                      <div class="align-self-center">
-                        <span
-                          class="icon-lg icon-dual-warning"
-                          data-feather="coffee"
-                        ></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-xl-3">
-                <div class="card">
-                  <div class="card-body p-0">
-                    <div class="media p-3">
-                      <div class="media-body">
-                        <span
-                          class="text-muted text-uppercase font-size-12 font-weight-bold"
-                          >Total Course</span
-                        >
-                        <h2 class="mb-0">11</h2>
-                      </div>
-                      <div class="align-self-center">
-                        <span
-                          class="icon-lg icon-dual-success"
-                          data-feather="users"
-                        ></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-xl-3">
-                <div class="card">
-                  <div class="card-body p-0">
-                    <div class="media p-3">
-                      <div class="media-body">
-                        <span
-                          class="text-muted text-uppercase font-size-12 font-weight-bold"
-                          >New Visitors</span
-                        >
-                        <h2 class="mb-0">750</h2>
-                      </div>
-                      <div class="align-self-center">
-                        <span
-                          class="icon-lg icon-dual-info"
-                          data-feather="file-text"
-                        ></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
             <!-- end row -->
           </div>
