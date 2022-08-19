@@ -336,22 +336,22 @@
             <ul class="metismenu" id="menu-bar">
               <!-- Deshbord -->
               <li>
-                <a href="../index.html">
-                  <i data-feather="home"></i>
+                <a href="../index.php">
+                  <i data-feather="grid"></i>
 
                   <span> Dashboard </span>
                 </a>
               </li>
               <!-- Total Course -->
-              <li class="active">
-                <a href="total_course.html">
+              <li >
+                <a href="total_course.php">
                   <i data-feather="book"></i>
                   <span>Total Course </span>
                 </a>
               </li>
               <!-- Total Teacher -->
-              <li>
-                <a href="">
+              <li class="active">
+                <a href="total_teacher.php">
                   <i data-feather="user"></i>
                   <span>Total Teacher </span>
                 </a>

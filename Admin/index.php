@@ -325,8 +325,8 @@
             <ul class="metismenu" id="menu-bar">
               <!-- Deshbord -->
               <li class="active">
-                <a href="index.html">
-                  <i data-feather="home"></i>
+                <a href="index.php">
+                  <i data-feather="grid"></i>
 
                   <span> Dashboard </span>
                 </a>
@@ -340,7 +340,7 @@
               </li>
               <!-- Total Teacher -->
               <li>
-                <a href="">
+                <a href="menu_list/total_teacher.php">
                   <i data-feather="user"></i>
                   <span>Total Teacher </span>
                 </a>
