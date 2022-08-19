@@ -343,14 +343,14 @@
                 </a>
               </li>
               <!-- Total Course -->
-              <li >
+              <li class="active">
                 <a href="total_course.php">
                   <i data-feather="book"></i>
                   <span>Total Course </span>
                 </a>
               </li>
               <!-- Total Teacher -->
-              <li class="active">
+              <li>
                 <a href="total_teacher.php">
                   <i data-feather="user"></i>
                   <span>Total Teacher </span>
@@ -360,13 +360,13 @@
               <li>
                 <a href="total_student.php">
                   <i data-feather="users"></i>
-                  <span>Total Student </span>
+                  <span> Student </span>
                 </a>
               </li>
 
               <!-- Assignment -->
               <li>
-                <a href="setting.php">
+                <a href="assignment.php">
                   <i data-feather="bookmark"></i>
                   <span> Assignment </span>
                   <span class="badge badge-success float-right">1</span>
@@ -393,13 +393,12 @@
       <!-- Start Page Content here -->
       <!-- ============================================================== -->
 
-
       <div class="content-page">
         <div class="content">
           <div class="container-fluid">
             <div class="row page-title align-items-center">
               <div class="col-sm-4 col-xl-6">
-                <h4 class="mb-1 mt-0">Teachers</h4>
+                <h4 class="mb-1 mt-0">Assignment</h4>
               </div>
               <div class="col-sm-8 col-xl-6">
                 <form class="form-inline float-sm-right mt-3 mt-sm-0">
@@ -411,12 +410,24 @@
                       aria-haspopup="true"
                       aria-expanded="false"
                     >
-                      <i class="uil uil-user mr-1"></i>Add Teacher
+                      <i class="uil uil-file-alt mr-1"></i>Add Assignment
                       
                     </button>
 
                   </div>
 
+                  <div class="btn-group" style="margin-left: 10px;">
+                    <button
+                      type="button"
+                      class="btn btn-primary dropdown-toggle"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <i class="uil uil-check-square mr-1"></i> Manage Assignment
+                    </button>
+
+                  </div>
                 </form>
               </div>
             </div>
@@ -530,6 +541,7 @@
         </footer>
         <!-- end Footer -->
       </div>
+
       <!-- ============================================================== -->
       <!-- End Page content -->
       <!-- ============================================================== -->

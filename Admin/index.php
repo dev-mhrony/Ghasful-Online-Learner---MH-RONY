@@ -347,15 +347,15 @@
               </li>
               <!-- Total Student -->
               <li>
-                <a href="">
+                <a href="menu_list/total_student.php">
                   <i data-feather="users"></i>
-                  <span> Student </span>
+                  <span>Total Student </span>
                 </a>
               </li>
 
               <!-- Assignment -->
               <li>
-                <a href="">
+                <a href="menu_list/assignment.php">
                   <i data-feather="bookmark"></i>
                   <span> Assignment </span>
                   <span class="badge badge-success float-right">1</span>
@@ -364,7 +364,7 @@
 
               <!-- Setting -->
               <li>
-                <a href="">
+                <a href="menu_list/setting.php">
                   <i data-feather="settings"></i>
                   <span> Setting </span>
                 </a>
@@ -372,8 +372,6 @@
             </ul>
           </div>
           <!-- End Sidebar -->
-
-          <div class="clearfix"></div>
         </div>
         <!-- Sidebar -left -->
       </div>
